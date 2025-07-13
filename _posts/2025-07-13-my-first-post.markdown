@@ -6,3 +6,15 @@ categories: posts update
 ---
 
 This is my first post and I want to see how it renders on the internet. 
+
+
+This is an equation: $ \frac{a}{b} = c$.  Lots of interesting things to think about there i guess...
+
+This is a big block eqution: 
+$$
+\frac{a}{b} = c
+$$
+
+What an *even* more exciting thing to think about there!
+
+
