@@ -31,6 +31,10 @@ github_username:  felixtrp
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-spaceship
+
+include:
+  - _includes/head-custom.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
