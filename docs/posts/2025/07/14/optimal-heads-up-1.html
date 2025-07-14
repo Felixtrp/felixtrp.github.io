@@ -10,8 +10,8 @@
 <meta name="generator" content="Jekyll v4.4.1">
 <meta property="og:title" content="Perfect Heads Up Poker (Part 1)">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="Poker - Luck or Skill?&lt;\h2&gt;">
-<meta property="og:description" content="Poker - Luck or Skill?&lt;\h2&gt;">
+<meta name="description" content="Poker - Luck or Skill? How much of winning at poker is skill, and how much is luck? I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it. Is there some real way we can estimate how much of poker is luck and how much is skill? It clearly isn't totally random like snakes and ladders, nor purely 'deterministic' - something like chess, for example. The truth is, poker lies somewhere in between - but where, **exactly**?">
+<meta property="og:description" content="Poker - Luck or Skill? How much of winning at poker is skill, and how much is luck? I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it. Is there some real way we can estimate how much of poker is luck and how much is skill? It clearly isn't totally random like snakes and ladders, nor purely 'deterministic' - something like chess, for example. The truth is, poker lies somewhere in between - but where, **exactly**?">
 <link rel="canonical" href="/posts/2025/07/14/optimal-heads-up-1.html">
 <meta property="og:url" content="/posts/2025/07/14/optimal-heads-up-1.html">
 <meta property="og:site_name" content="Felix Prutton">
@@ -20,10 +20,11 @@
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Perfect Heads Up Poker (Part 1)">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-14T18:11:00+01:00","datePublished":"2025-07-14T18:11:00+01:00","description":"Poker - Luck or Skill?&lt;\\h2&gt;","headline":"Perfect Heads Up Poker (Part 1)","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/2025/07/14/optimal-heads-up-1.html"},"url":"/posts/2025/07/14/optimal-heads-up-1.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-14T18:11:00+01:00","datePublished":"2025-07-14T18:11:00+01:00","description":"Poker - Luck or Skill? How much of winning at poker is skill, and how much is luck? I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there&#39;s nothing you can do about it. Is there some real way we can estimate how much of poker is luck and how much is skill? It clearly isn&#39;t totally random like snakes and ladders, nor purely &#39;deterministic&#39; - something like chess, for example. The truth is, poker lies somewhere in between - but where, **exactly**?","headline":"Perfect Heads Up Poker (Part 1)","mainEntityOfPage":{"@type":"WebPage","@id":"/posts/2025/07/14/optimal-heads-up-1.html"},"url":"/posts/2025/07/14/optimal-heads-up-1.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
 <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Felix Prutton">
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 <header class="site-header" role="banner">
@@ -55,31 +56,33 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h2>Poker - Luck or Skill?&lt;\h2&gt;
-
+    <h2> Poker - Luck or Skill? </h2>
+<p> 
 How much of winning at poker is skill, and how much is luck? 
 I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it.
 Is there some real way we can estimate how much of poker is luck and how much is skill?
 It clearly isn't totally random like snakes and ladders, nor purely 'deterministic' - something like chess, for example.
 The truth is, poker lies somewhere in between - but where, **exactly**?
+</p>
 
+<p>
 I wanted a nice little metric for this luck vs skill 'vibe' I'm describing (where snakes and ladders scores 0.0 and chess is very close to 1.0) and I think I have a loose approximation to such a metric.
 Consider attending the Chess World Championships - the final has just taken place, the champion is crowned and we havesuccessfully identified the best player in the world.  
 Now, an amateur who has just learnt the game challenges the world champion and asks for a quick game.  
 How do we think this will go?
 I suspect most people would place their money on the new world champion - an amateur in this scenario has approximately 0% chance of winning.
 In the amateur vs 'world champion' Snakes and Ladders battle, however, the newbie stands a much better chance of success - 50% in fact.
+</p>
 
+<p>
 Armed with these two data points and our intuitions, let's define our 'skill' metric, $ S $:
 \$\$
 S = 2 \times ( 0.5 - P(\text{A trivial strategy wins against an optimal opponent}) )
 \$\$
+</p>
 
 <h2> The Simplest Possible Game </h2>
 
-
-
-</h2>
 
   </div>
 <a class="u-url" href="/posts/2025/07/14/optimal-heads-up-1.html" hidden></a>
