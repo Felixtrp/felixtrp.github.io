@@ -1,8 +1,0 @@
----
-layout: post
-title:  "My Second Post"
-date:   2025-07-13 21:07:52 +0100
-categories: posts
----
-
-Pythagoras once said $ a^2 + b^2 = c^2 $ and he was totally onto something.
