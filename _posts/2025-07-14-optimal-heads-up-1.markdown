@@ -28,4 +28,35 @@ S = 2 \times ( 0.5 - P(\text{A trivial strategy wins against an optimal opponent
 $$
 
 
-## The Simplest Possible Game
+## Amateur Vs Pro - The Simplest Possible Game
+Poker is really complicated and I want to get a nice answer, so we are going to have to make this as simple a game as possible.  I still want this to be a 'valid' poker game, but that means we are going to have some slightly odd rules for the set-up.
+
+### The Game
+We are playing Heads-Up - Texas Hold 'Em.  SB and BB are both equal to 1 unit - we will adjust stack sizes later to see how this impacts play.  Setting small blind equal to the big blind implifies calculations substantially
+
+### The players
+We are going to have two players in this ga,e - it's heads-up.
+
+The first player is 'The Pro',  This player is perfectly logical, can read minds and has infinite computing power.  Kinda overpowered, but we're testing the limits here.
+
+The second player is "The Shover". They weren't paying attentioin when the rules were explained to them.  They can't do math and they also forgot all words in the English language apart from "All" and "In".
+
+This may seem a bit silly, but actually I like this case for a number of reasons.
+1. This is probabily a reasonable strategy for a total noivce to play against a pro - it gives away no information about their hand (even if they could evaluate it accurately).
+2. It's better than folding every hand.
+3. It makes the pro's decisions much more straightforward (look at their own cards, then call or fold) which simplifies calculations massively.
+4. Most of my friends play like this anyway.
+
+Let's see how a game goes...
+
+## Single Hands
+
+## Optimal Strategy
+
+
+
+
+
+
+
+
