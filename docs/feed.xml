@@ -1,29 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-14T19:08:11+01:00</updated><id>/feed.xml</id><title type="html">Felix Prutton</title><subtitle>This is my personal site, where I write about my projects, experiments and some cool computational stuff I&apos;ve been working on.</subtitle><entry><title type="html">Perfect Heads Up Poker (Part 1)</title><link href="/posts/2025/07/14/optimal-heads-up-1.html" rel="alternate" type="text/html" title="Perfect Heads Up Poker (Part 1)" /><published>2025-07-14T18:11:00+01:00</published><updated>2025-07-14T18:11:00+01:00</updated><id>/posts/2025/07/14/optimal-heads-up-1</id><content type="html" xml:base="/posts/2025/07/14/optimal-heads-up-1.html"><![CDATA[<h2> Poker - Luck or Skill? </h2>
-<p> 
-How much of winning at poker is skill, and how much is luck? 
-I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it.
-Is there some real way we can estimate how much of poker is luck and how much is skill?
-It clearly isn't totally random like snakes and ladders, nor purely 'deterministic' - something like chess, for example.
-The truth is, poker lies somewhere in between - but where, **exactly**?
-</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-07-14T19:11:03+01:00</updated><id>/feed.xml</id><title type="html">Felix Prutton</title><subtitle>This is my personal site, where I write about my projects, experiments and some cool computational stuff I&apos;ve been working on.</subtitle><entry><title type="html">Perfect Heads Up Poker (Part 1)</title><link href="/posts/2025/07/14/optimal-heads-up-1.html" rel="alternate" type="text/html" title="Perfect Heads Up Poker (Part 1)" /><published>2025-07-14T18:11:00+01:00</published><updated>2025-07-14T18:11:00+01:00</updated><id>/posts/2025/07/14/optimal-heads-up-1</id><content type="html" xml:base="/posts/2025/07/14/optimal-heads-up-1.html"><![CDATA[<p>Poker - Luck or Skill?</p>
 
-<p>
-I wanted a nice little metric for this luck vs skill 'vibe' I'm describing (where snakes and ladders scores 0.0 and chess is very close to 1.0) and I think I have a loose approximation to such a metric.
-Consider attending the Chess World Championships - the final has just taken place, the champion is crowned and we havesuccessfully identified the best player in the world.  
-Now, an amateur who has just learnt the game challenges the world champion and asks for a quick game.  
+<p>How much of winning at poker is skill, and how much is luck? 
+I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there’s nothing you can do about it.
+Is there some real way we can estimate how much of poker is luck and how much is skill?
+It clearly isn’t totally random like snakes and ladders, nor purely ‘deterministic’ - something like chess, for example.
+The truth is, poker lies somewhere in between - but where, <strong>exactly</strong>?</p>
+
+<p>I wanted a nice little metric for this luck vs skill ‘vibe’ I’m describing (where snakes and ladders scores 0.0 and chess is very close to 1.0) and I think I have a loose approximation to such a metric.
+Consider attending the Chess World Championships - the final has just taken place, the champion is crowned and we havesuccessfully identified the best player in the world.<br />
+Now, an amateur who has just learnt the game challenges the world champion and asks for a quick game.<br />
 How do we think this will go?
 I suspect most people would place their money on the new world champion - an amateur in this scenario has approximately 0% chance of winning.
-In the amateur vs 'world champion' Snakes and Ladders battle, however, the newbie stands a much better chance of success - 50% in fact.
-</p>
+In the amateur vs ‘world champion’ Snakes and Ladders battle, however, the newbie stands a much better chance of success - 50% in fact.</p>
 
-<p>
-Armed with these two data points and our intuitions, let's define our 'skill' metric, $ S $:
-\$\$
+<p>Armed with these two data points and our intuitions, let’s define our ‘skill’ metric, $ S $:
+$$
 S = 2 \times ( 0.5 - P(\text{A trivial strategy wins against an optimal opponent}) )
-\$\$
-</p>
+$$</p>
 
-<h2> The Simplest Possible Game </h2>]]></content><author><name></name></author><category term="posts" /><summary type="html"><![CDATA[Poker - Luck or Skill? How much of winning at poker is skill, and how much is luck? I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it. Is there some real way we can estimate how much of poker is luck and how much is skill? It clearly isn't totally random like snakes and ladders, nor purely 'deterministic' - something like chess, for example. The truth is, poker lies somewhere in between - but where, **exactly**?]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2025/07/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-07-13T21:07:52+01:00</published><updated>2025-07-13T21:07:52+01:00</updated><id>/jekyll/update/2025/07/13/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2025/07/13/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>The Simplest Possible Game</p>]]></content><author><name></name></author><category term="posts" /><summary type="html"><![CDATA[Poker - Luck or Skill?]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2025/07/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-07-13T21:07:52+01:00</published><updated>2025-07-13T21:07:52+01:00</updated><id>/jekyll/update/2025/07/13/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2025/07/13/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
