@@ -5,9 +5,8 @@ date:   2025-07-14 18:11:00 +0100
 categories: posts
 ---
 
-<h2>Poker - Luck or Skill?<\h2>
+Poker - Luck or Skill?
 
-<p>
 How much of winning at poker is skill, and how much is luck? 
 I mean, really - players will tell you they are running numbers in their heads the whole time, calculating EVs and making sure they are making game-theory optimal decisions or whatever, but at some point we all know your opponent has been sitting on pocket aces and there's nothing you can do about it.
 Is there some real way we can estimate how much of poker is luck and how much is skill?
@@ -26,9 +25,6 @@ $$
 S = 2 \times ( 0.5 - P(\text{A trivial strategy wins against an optimal opponent}) )
 $$
 
-<\p>
-
-<h2> The Simplest Possible Game </h2>
-
+The Simplest Possible Game
 
 
