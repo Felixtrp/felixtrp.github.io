@@ -4,12 +4,10 @@ title:  "Welcome to Jekyll!"
 date:   2025-12-19 00:02:28 +0000
 categories: jekyll update
 ---
-testing. testing 2. testing 3.
-
-$E = mc^2$ is an equation.  But there are many more.  For instance:
+There is a relationship between pressure ratios and temperature ratios in an adiabtic expansion.
 
 $$
-K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
+T^{\gamma} P^{1-\gamma} = \text{constant}
 $$
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
