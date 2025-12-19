@@ -30,8 +30,8 @@ github_username:  felixtrp
 
 # Build settings
 
-theme: jekyll-swiss
-theme_color: orange
+theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-spaceship
