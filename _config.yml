@@ -30,7 +30,7 @@ github_username:  felixtrp
 
 # Build settings
 
-theme: jekyll-swiss
+remote_theme: broccolini/swiss
 
 plugins:
   - jekyll-feed
