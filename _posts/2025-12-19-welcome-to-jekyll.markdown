@@ -4,6 +4,13 @@ title:  "Welcome to Jekyll!"
 date:   2025-12-19 00:02:28 +0000
 categories: jekyll update
 ---
+
+$E = mc^2$ is an equation.  But there are many more.  For instance:
+
+$$
+K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
+$$
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
