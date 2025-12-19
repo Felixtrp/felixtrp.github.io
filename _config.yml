@@ -30,7 +30,7 @@ github_username:  felixtrp
 
 # Build settings
 
-theme: minima
+theme: jekyll-swiss
 
 plugins:
   - jekyll-feed
