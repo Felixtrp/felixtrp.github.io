@@ -332,6 +332,9 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   jekyll-spaceship
+  jekyll-swiss
+  jekyll-theme-cayman
+  jekyll-theme-minimal
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
   tzinfo-data
