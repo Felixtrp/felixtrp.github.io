@@ -23,7 +23,7 @@ Therefore, I propose the most annoying strategy one can dream up: goinh all-in e
 
 How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a litte.  Let's approach this from the point-of-view of the pro and get some quick bounds on a solution.
 
-<h3>Upper and Lower Bounds<h3>
+<h3>Upper and Lower Bounds</h3>
 To get an lower bound on the pro's win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it's easy to see that this game is symmetric, and the win rate for the pro is 50%.
 
 For an upper bound, we can also make a fairly straightforward estimate.  To do this, we imagine giving our pro a massive unfair advantage and seeing how they do.  For instance, consider the case where our pro is the luckiest player in the world - they get pocket aces on every hand.  Clearly, the only move here is to go all-in, just as before.  The win rate for the pro in this case is equal to the win rate of pocket aces against a random hand.  The magic number here is 84.93%.  Nice.
