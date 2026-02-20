@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://felixtrp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://felixtrp.github.io/" rel="alternate" type="text/html" /><updated>2026-02-20T11:50:34+00:00</updated><id>https://felixtrp.github.io/feed.xml</id><title type="html">Felix’s Stuff</title><subtitle>A place for my ideas, thoughts and stuff I find interesting.</subtitle><entry><title type="html">Heads-Up Poker - Luck or Skill?</title><link href="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html" rel="alternate" type="text/html" title="Heads-Up Poker - Luck or Skill?" /><published>2026-02-19T00:18:00+00:00</published><updated>2026-02-19T00:18:00+00:00</updated><id>https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker</id><content type="html" xml:base="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html"><![CDATA[<h2> Luck and Skill </h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://felixtrp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://felixtrp.github.io/" rel="alternate" type="text/html" /><updated>2026-02-20T11:57:11+00:00</updated><id>https://felixtrp.github.io/feed.xml</id><title type="html">Felix’s Stuff</title><subtitle>A place for my ideas, thoughts and stuff I find interesting.</subtitle><entry><title type="html">Heads-Up Poker - Luck or Skill?</title><link href="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html" rel="alternate" type="text/html" title="Heads-Up Poker - Luck or Skill?" /><published>2026-02-19T00:18:00+00:00</published><updated>2026-02-19T00:18:00+00:00</updated><id>https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker</id><content type="html" xml:base="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html"><![CDATA[<h2> Luck and Skill </h2>
 
 <p>Chess is a game of skill.  No matter how many times I am in a room with Magnus Carlson, I will lose.  If someone was offering you 1000:1 odds on my victory in a single game, you should still bet on Magnus.</p>
 
@@ -10,9 +10,9 @@
 
 <p>What might you do if you were faced with a pro?  Presumably you want to minimise their advantage, while minimising the number of important strategic decisions you have to take (and presumably, mess up).  More decisions equals more wrong decisions.</p>
 
-<p>Therefore, I propose the most annoying strategy one can dream up: goinh all-in every time.  Conveniently, since we want to do some analysis on this in a bit, it also helps a great deal with the math.</p>
+<p>Therefore, I propose the most annoying strategy one can dream up: going all-in every time.  Conveniently, since we want to do some analysis on this in a bit, it also helps a great deal with the math.</p>
 
-<p>How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a litte.  Let’s approach this from the point-of-view of the pro and get some quick bounds on a solution.</p>
+<p>How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a little.  Let’s approach this from the point-of-view of the pro and get some quick bounds on a solution.</p>
 
 <h3>Upper and Lower Bounds</h3>
 <p>To get an lower bound on the pro’s win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it’s easy to see that this game is symmetric, and the win rate for the pro is 50%.</p>
@@ -22,7 +22,7 @@
 <p>In summary, our optimal pro has a win rate, $w*$ that satisfies:</p>
 
 <p>$$
-0.50 &lt;= w* &lt;= 0.85
+0.50 \leq w* \leq 0.85
 $$</p>
 
 <p>Can we tighten the bounds on this solution?  Yes, but we’re going to need a bit of a run-up…</p>
