@@ -19,9 +19,9 @@ So, here's an interesting question: precisely how much of poker is luck?  Is the
 
 What might you do if you were faced with a pro?  Presumably you want to minimise their advantage, while minimising the number of important strategic decisions you have to take (and presumably, mess up).  More decisions equals more wrong decisions.
 
-Therefore, I propose the most annoying strategy one can dream up: goinh all-in every time.  Conveniently, since we want to do some analysis on this in a bit, it also helps a great deal with the math.
+Therefore, I propose the most annoying strategy one can dream up: going all-in every time.  Conveniently, since we want to do some analysis on this in a bit, it also helps a great deal with the math.
 
-How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a litte.  Let's approach this from the point-of-view of the pro and get some quick bounds on a solution.
+How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a little.  Let's approach this from the point-of-view of the pro and get some quick bounds on a solution.
 
 <h3>Upper and Lower Bounds</h3>
 To get an lower bound on the pro's win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it's easy to see that this game is symmetric, and the win rate for the pro is 50%.
@@ -31,7 +31,7 @@ For an upper bound, we can also make a fairly straightforward estimate.  To do t
 In summary, our optimal pro has a win rate, $w*$ that satisfies:
 
 $$
-0.50 <= w* <= 0.85
+0.50 \leq w* \leq 0.85
 $$
 
 Can we tighten the bounds on this solution?  Yes, but we're going to need a bit of a run-up...
