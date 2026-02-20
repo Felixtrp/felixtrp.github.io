@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://felixtrp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://felixtrp.github.io/" rel="alternate" type="text/html" /><updated>2026-02-20T11:46:19+00:00</updated><id>https://felixtrp.github.io/feed.xml</id><title type="html">Felix’s Stuff</title><subtitle>A place for my ideas, thoughts and stuff I find interesting.</subtitle><entry><title type="html">Heads-Up Poker - Luck or Skill?</title><link href="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html" rel="alternate" type="text/html" title="Heads-Up Poker - Luck or Skill?" /><published>2026-02-19T00:18:00+00:00</published><updated>2026-02-19T00:18:00+00:00</updated><id>https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker</id><content type="html" xml:base="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html"><![CDATA[<h2> Luck and Skill </h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://felixtrp.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://felixtrp.github.io/" rel="alternate" type="text/html" /><updated>2026-02-20T11:50:34+00:00</updated><id>https://felixtrp.github.io/feed.xml</id><title type="html">Felix’s Stuff</title><subtitle>A place for my ideas, thoughts and stuff I find interesting.</subtitle><entry><title type="html">Heads-Up Poker - Luck or Skill?</title><link href="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html" rel="alternate" type="text/html" title="Heads-Up Poker - Luck or Skill?" /><published>2026-02-19T00:18:00+00:00</published><updated>2026-02-19T00:18:00+00:00</updated><id>https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker</id><content type="html" xml:base="https://felixtrp.github.io/math/games/poker/computing/2026/02/19/winning-poker.html"><![CDATA[<h2> Luck and Skill </h2>
 
 <p>Chess is a game of skill.  No matter how many times I am in a room with Magnus Carlson, I will lose.  If someone was offering you 1000:1 odds on my victory in a single game, you should still bet on Magnus.</p>
 
@@ -14,22 +14,21 @@
 
 <p>How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a litte.  Let’s approach this from the point-of-view of the pro and get some quick bounds on a solution.</p>
 
-<h3>Upper and Lower Bounds<h3>
-To get an lower bound on the pro's win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it's easy to see that this game is symmetric, and the win rate for the pro is 50%.
+<h3>Upper and Lower Bounds</h3>
+<p>To get an lower bound on the pro’s win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it’s easy to see that this game is symmetric, and the win rate for the pro is 50%.</p>
 
-For an upper bound, we can also make a fairly straightforward estimate.  To do this, we imagine giving our pro a massive unfair advantage and seeing how they do.  For instance, consider the case where our pro is the luckiest player in the world - they get pocket aces on every hand.  Clearly, the only move here is to go all-in, just as before.  The win rate for the pro in this case is equal to the win rate of pocket aces against a random hand.  The magic number here is 84.93%.  Nice.
+<p>For an upper bound, we can also make a fairly straightforward estimate.  To do this, we imagine giving our pro a massive unfair advantage and seeing how they do.  For instance, consider the case where our pro is the luckiest player in the world - they get pocket aces on every hand.  Clearly, the only move here is to go all-in, just as before.  The win rate for the pro in this case is equal to the win rate of pocket aces against a random hand.  The magic number here is 84.93%.  Nice.</p>
 
-In summary, our optimal pro has a win rate, $w*$ that satisfies:
+<p>In summary, our optimal pro has a win rate, $w*$ that satisfies:</p>
 
-\$\$
+<p>$$
 0.50 &lt;= w* &lt;= 0.85
-\$\$
+$$</p>
 
-Can we tighten the bounds on this solution?  Yes, but we're going to need a bit of a run-up...
+<p>Can we tighten the bounds on this solution?  Yes, but we’re going to need a bit of a run-up…</p>
 
 <h2>Sidequest - Markov Chains and Terminating Probabilities</h2>
-Here we ta;l about Markov chains.
-</h3></h3>]]></content><author><name></name></author><category term="math" /><category term="games" /><category term="poker" /><category term="computing" /><summary type="html"><![CDATA[Luck and Skill]]></summary></entry><entry><title type="html">My First Post</title><link href="https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post.html" rel="alternate" type="text/html" title="My First Post" /><published>2025-12-19T00:11:00+00:00</published><updated>2025-12-19T00:11:00+00:00</updated><id>https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post</id><content type="html" xml:base="https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post.html"><![CDATA[<p>I am making this post because I want to see how it renders.</p>
+<p>Here we ta;l about Markov chains.</p>]]></content><author><name></name></author><category term="math" /><category term="games" /><category term="poker" /><category term="computing" /><summary type="html"><![CDATA[Luck and Skill]]></summary></entry><entry><title type="html">My First Post</title><link href="https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post.html" rel="alternate" type="text/html" title="My First Post" /><published>2025-12-19T00:11:00+00:00</published><updated>2025-12-19T00:11:00+00:00</updated><id>https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post</id><content type="html" xml:base="https://felixtrp.github.io/jekyll/update/2025/12/19/my-first-post.html"><![CDATA[<p>I am making this post because I want to see how it renders.</p>
 
 <p>Isn’t that cool?</p>
 

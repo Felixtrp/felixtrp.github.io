@@ -18,6 +18,7 @@
   <link rel="alternate" type="application/rss+xml" title="Felix's Stuff" href="https://felixtrp.github.io/feed.xml">
 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 
@@ -77,23 +78,21 @@
 
 <p>How does this strategy do against a pro making all the optimal decisions?  A quick search on the internet produces a trove of incorrect answers and I consider it my public duty to help clear this mess up a litte.  Let’s approach this from the point-of-view of the pro and get some quick bounds on a solution.</p>
 
-<h3>Upper and Lower Bounds<h3>
-To get an lower bound on the pro's win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it's easy to see that this game is symmetric, and the win rate for the pro is 50%.
+<h3>Upper and Lower Bounds</h3>
+<p>To get an lower bound on the pro’s win rate, all we have to do is propose any strategy, find its win rate and claim that.  The simplest possible strategy is to do exactly the same thing - call every time.  This is obviously a suboptimal strategy, but it’s easy to see that this game is symmetric, and the win rate for the pro is 50%.</p>
 
-For an upper bound, we can also make a fairly straightforward estimate.  To do this, we imagine giving our pro a massive unfair advantage and seeing how they do.  For instance, consider the case where our pro is the luckiest player in the world - they get pocket aces on every hand.  Clearly, the only move here is to go all-in, just as before.  The win rate for the pro in this case is equal to the win rate of pocket aces against a random hand.  The magic number here is 84.93%.  Nice.
+<p>For an upper bound, we can also make a fairly straightforward estimate.  To do this, we imagine giving our pro a massive unfair advantage and seeing how they do.  For instance, consider the case where our pro is the luckiest player in the world - they get pocket aces on every hand.  Clearly, the only move here is to go all-in, just as before.  The win rate for the pro in this case is equal to the win rate of pocket aces against a random hand.  The magic number here is 84.93%.  Nice.</p>
 
-In summary, our optimal pro has a win rate, $w*$ that satisfies:
+<p>In summary, our optimal pro has a win rate, $w*$ that satisfies:</p>
 
-\$\$
+<p>$$
 0.50 &lt;= w* &lt;= 0.85
-\$\$
+$$</p>
 
-Can we tighten the bounds on this solution?  Yes, but we're going to need a bit of a run-up...
+<p>Can we tighten the bounds on this solution?  Yes, but we’re going to need a bit of a run-up…</p>
 
 <h2>Sidequest - Markov Chains and Terminating Probabilities</h2>
-Here we ta;l about Markov chains.
-</h3>
-</h3>
+<p>Here we ta;l about Markov chains.</p>
 
   </div>
 
