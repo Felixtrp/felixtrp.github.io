@@ -2,7 +2,7 @@
 layout: post
 title:  "Journey Through Earth - Are you sitting comfortably?"
 subtitle:  "How long does a journey through the Earth really take?"
-date:   2026-05-24 21:00:00 +0000
+date:   2026-05-13 21:00:00 +0100
 categories: math physics
 ---
 
